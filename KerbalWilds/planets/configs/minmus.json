@@ -1,0 +1,42 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Minmus",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 30,
+		"surfaceGravity": 0.49,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Kerbin",
+		"semiMajorAxis": 2000,
+		"eccentricity": 0,
+		"inclination": 6,
+		"argumentOfPeriapsis": 38,
+		"longitudeOfAscendingNode": 78,
+		"trueAnomaly": 51,
+		"showOrbitLine": true,
+		"isMoon": true,
+		"tint": {
+			"r": 71,
+			"g": 58,
+			"b": 80,
+			"a": 255
+		},
+		"siderealPeriod": 11.2
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/minmus_d.png",
+		"heightMap": "planets/maps/minmus_h.png",
+		"minHeight": 30,
+		"maxHeight": 33,
+		"resolution": 256,
+		"smoothnessMap": "planets/maps/minmus_s.png",
+		"smoothness": 1
+	}
+}

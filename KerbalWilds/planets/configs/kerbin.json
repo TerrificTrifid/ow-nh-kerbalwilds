@@ -14,7 +14,7 @@
 			{
 				"position": {
 					"x": 0,
-					"y": 307,
+					"y": 300,
 					"z": 0
 				},
 				"alignRadial": true,
@@ -25,7 +25,7 @@
 			{
 				"position": {
 					"x": 0,
-					"y": 307,
+					"y": 300,
 					"z": 0
 				},
 				"alignRadial": true,
@@ -55,7 +55,7 @@
 		"siderealPeriod": 6
 	},
 	"Atmosphere": {
-		"size": 440,
+		"size": 370,
 		"useAtmosphereShader": true,
 		"hasOxygen": true,
 		"hasTrees": false

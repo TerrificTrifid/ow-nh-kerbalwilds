@@ -1,0 +1,81 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Eve",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": false,
+	"Base": {
+		"surfaceSize": 350,
+		"surfaceGravity": 16.7,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Kerbol",
+		"semiMajorAxis": 8000,
+		"eccentricity": 0.01,
+		"inclination": 2.1,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 15,
+		"trueAnomaly": 180,
+		"showOrbitLine": true,
+		"isMoon": false,
+		"tint": {
+			"r": 54,
+			"g": 16,
+			"b": 114,
+			"a": 255
+		},
+		"siderealPeriod": 22.3
+	},
+	"Atmosphere": {
+		"size": 440,
+		"useAtmosphereShader": true,
+		"hasOxygen": false,
+		"atmosphereTint": {
+			"r": 114,
+			"g": 65,
+			"b": 137,
+			"a": 255
+		},
+		"fogSize": 440,
+		"fogDensity": 1,
+		"fogTint": {
+			"r": 114,
+			"g": 65,
+			"b": 137,
+			"a": 255
+		}
+	},
+	"AmbientLights": [
+		{
+			"intensity": 1,
+			"innerRadius": 350,
+			"outerRadius": 440,
+			"tint": {
+				"r": 114,
+				"g": 65,
+				"b": 137,
+				"a": 255
+			}
+		}
+	],
+	"Water": {
+		"size": 349,
+		"tint": {
+			"r": 76,
+			"g": 66,
+			"b": 79,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/eve_d.png",
+		"heightMap": "planets/maps/eve_h.png",
+		"minHeight": 348,
+		"maxHeight": 357,
+		"resolution": 1024
+	}
+}

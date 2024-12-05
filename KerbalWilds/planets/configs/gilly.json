@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Gilly",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 10,
+		"surfaceGravity": 0.49,
+		"gravityFallOff": "linear",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Eve",
+		"semiMajorAxis": 1500,
+		"eccentricity": 0.55,
+		"inclination": 12,
+		"argumentOfPeriapsis": 10,
+		"longitudeOfAscendingNode": 80,
+		"trueAnomaly": 51,
+		"showOrbitLine": true,
+		"isMoon": true,
+		"tint": {
+			"r": 81,
+			"g": 63,
+			"b": 55,
+			"a": 255
+		},
+		"siderealPeriod": 7.8
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/gilly_d.png",
+		"heightMap": "planets/maps/gilly_h.png",
+		"minHeight": 6.5,
+		"maxHeight": 10,
+		"resolution": 128
+	}
+}

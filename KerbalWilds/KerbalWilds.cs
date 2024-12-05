@@ -2,6 +2,7 @@
 using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
+using NewHorizons.Handlers;
 
 namespace KerbalWilds
 {
@@ -20,7 +21,7 @@ namespace KerbalWilds
 
         public void Start()
         {
-            
+
 
             // Get the New Horizons API and load configs
             NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
@@ -28,15 +29,13 @@ namespace KerbalWilds
 
             new Harmony("Trifid.KerbalWilds").PatchAll(Assembly.GetExecutingAssembly());
 
-            // Example of accessing game code.
-            OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen
-            LoadManager.OnCompleteSceneLoad += OnCompleteSceneLoad;
-        }
+            NewHorizons.GetStarSystemLoadedEvent().AddListener(system =>
+            {
+                if (system != "Kerbol System") return;
 
-        public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
-        {
-            if (newScene != OWScene.SolarSystem) return;
-            
+                var moho = NewHorizons.GetPlanet(TranslationHandler.GetTranslation("Moho", TranslationHandler.TextType.UI));
+                moho.transform.Find("GravityWell").GetComponent<GravityVolume>()._alignmentPriority = 1;
+            });
         }
     }
 }

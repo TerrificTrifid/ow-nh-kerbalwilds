@@ -1,0 +1,41 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Moho",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 125,
+		"surfaceGravity": 2.7,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Kerbol",
+		"semiMajorAxis": 5000,
+		"eccentricity": 0.2,
+		"inclination": 7,
+		"argumentOfPeriapsis": 15,
+		"longitudeOfAscendingNode": 70,
+		"trueAnomaly": 180,
+		"showOrbitLine": true,
+		"isMoon": false,
+		"tint": {
+			"r": 119,
+			"g": 91,
+			"b": 68,
+			"a": 255
+		},
+		"siderealPeriod": 5
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/moho_d.png",
+		"heightMap": "planets/maps/moho_h.png",
+		"minHeight": 113,
+		"maxHeight": 129,
+		"resolution": 256,
+		"smoothness": 0.03
+	}
+}
