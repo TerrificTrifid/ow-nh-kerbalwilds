@@ -1,3 +1,22 @@
 {
-	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json"
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"UIDictionary": {
+		"Kerbol": "Kerbol",
+		"Moho": "Moho",
+		"Eve": "Eve",
+		"Gilly": "Gilly",
+		"Kerbin": "Kerbin",
+		"The Mun": "The Mun",
+		"Minmus": "Minmus",
+		"Duna": "Duna",
+		"Ike": "Ike",
+		"Dres": "Dres",
+		"Jool": "Jool",
+		"Laythe": "Laythe",
+		"Vall": "Vall",
+		"Tylo": "Tylo",
+		"Bop": "Bop",
+		"Pol": "Pol",
+		"Eeloo": "Eeloo"
+	}
 }
