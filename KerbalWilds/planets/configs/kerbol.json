@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Kerbol",
+	"starSystem": "Kerbol System",
+	"Base": {
+		"surfaceSize": 3000,
+		"surfaceGravity": 50,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": false,
+		"centerOfSolarSystem": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"isStatic": true
+	},
+	"Star": {
+		"size": 3000,
+		"lightRadius": 100000,
+		"lightTint": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		}
+	}
+}

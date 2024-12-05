@@ -20,8 +20,7 @@ namespace KerbalWilds
 
         public void Start()
         {
-            // Starting here, you'll have access to OWML's mod helper.
-            ModHelper.Console.WriteLine($"My mod {nameof(KerbalWilds)} is loaded!", MessageType.Success);
+            
 
             // Get the New Horizons API and load configs
             NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
@@ -37,7 +36,7 @@ namespace KerbalWilds
         public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
         {
             if (newScene != OWScene.SolarSystem) return;
-            ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
+            
         }
     }
 }

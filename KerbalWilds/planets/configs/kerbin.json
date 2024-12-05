@@ -1,0 +1,94 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Kerbin",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": false,
+	"Base": {
+		"surfaceSize": 300,
+		"surfaceGravity": 9.81,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"position": {
+					"x": 0,
+					"y": 307,
+					"z": 0
+				},
+				"alignRadial": true,
+				"isDefault": true
+			}
+		],
+		"shipSpawnPoints": [
+			{
+				"position": {
+					"x": 0,
+					"y": 307,
+					"z": 0
+				},
+				"alignRadial": true,
+				"isDefault": true
+			}
+		]
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Kerbol",
+		"semiMajorAxis": 12000,
+		"eccentricity": 0,
+		"inclination": 0,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 0,
+		"trueAnomaly": 180,
+		"showOrbitLine": true,
+		"isMoon": false,
+		"tint": {
+			"r": 69,
+			"g": 101,
+			"b": 97,
+			"a": 255
+		},
+		"siderealPeriod": 6
+	},
+	"Atmosphere": {
+		"size": 440,
+		"useAtmosphereShader": true,
+		"hasOxygen": true,
+		"hasTrees": false
+	},
+	"AmbientLights": [
+		{
+			"intensity": 1,
+			"innerRadius": 300,
+			"outerRadius": 440,
+			"tint": {
+				"r": 32,
+				"g": 56,
+				"b": 97,
+				"a": 255
+			}
+		}
+	],
+	"Water": {
+		"size": 299,
+		"tint": {
+			"r": 32,
+			"g": 56,
+			"b": 97,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/kerbin_d.png",
+		"heightMap": "planets/maps/kerbin_h.png",
+		"minHeight": 298,
+		"maxHeight": 307,
+		"resolution": 1024,
+		"smoothnessMap": "planets/maps/kerbin_s.png",
+		"smoothness": 0.95
+	}
+}
