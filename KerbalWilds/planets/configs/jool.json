@@ -1,0 +1,78 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Jool",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 1500,
+		"surfaceGravity": 7.85,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Kerbol",
+		"semiMajorAxis": 30000,
+		"eccentricity": 0.05,
+		"inclination": 1.304,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 52,
+		"trueAnomaly": 6,
+		"showOrbitLine": true,
+		"isMoon": false,
+		"tint": {
+			"r": 42,
+			"g": 66,
+			"b": 9,
+			"a": 255
+		},
+		"siderealPeriod": 10
+	},
+	"Atmosphere": {
+		"size": 1500,
+		"useAtmosphereShader": true,
+		"hasOxygen": false,
+		"atmosphereTint": {
+			"r": 71,
+			"g": 143,
+			"b": 0,
+			"a": 255
+		},
+		"fogSize": 1500,
+		"fogDensity": 1,
+		"fogTint": {
+			"r": 106,
+			"g": 141,
+			"b": 69,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/maps/jool.png",
+			"rampPath": "planets/maps/jool_ramp.png",
+			"cloudsPrefab": "giantsDeep",
+			"outerCloudRadius": 1500,
+			"innerCloudRadius": 1300,
+			"tint": {
+				"r": 71,
+				"g": 143,
+				"b": 0,
+				"a": 255
+			}
+		}
+	},
+	"AmbientLights": [
+		{
+			"intensity": 0.5,
+			"innerRadius": 1400,
+			"outerRadius": 1600,
+			"tint": {
+				"r": 106,
+				"g": 141,
+				"b": 69,
+				"a": 255
+			}
+		}
+	]
+}

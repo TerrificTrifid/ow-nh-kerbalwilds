@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Eeloo",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 105,
+		"surfaceGravity": 1.69,
+		"gravityFallOff": "linear",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Kerbol",
+		"semiMajorAxis": 40000,
+		"eccentricity": 0.26,
+		"inclination": 6.15,
+		"argumentOfPeriapsis": 260,
+		"longitudeOfAscendingNode": 50,
+		"trueAnomaly": 180,
+		"showOrbitLine": true,
+		"isMoon": false,
+		"tint": {
+			"r": 52,
+			"g": 53,
+			"b": 53,
+			"a": 255
+		},
+		"siderealPeriod": 5.4
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/eeloo_d.png",
+		"heightMap": "planets/maps/eeloo_h.png",
+		"minHeight": 105,
+		"maxHeight": 109,
+		"resolution": 512,
+		"smoothnessMap": "planets/maps/eeloo_s.png",
+		"smoothness": 0.7,
+		"tileBlendMap": "planets/maps/eeloo_s.png",
+		"baseTile": {
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_BH_Glacier_n.png",
+			"normalStrength": 1
+		},
+		"alphaTile": {
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_DB_Ice_n.png",
+			"normalStrength": 1
+		}
+	}
+}

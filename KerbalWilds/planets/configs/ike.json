@@ -42,8 +42,8 @@
 		"maxHeight": 77,
 		"resolution": 256,
 		"redTile": {
-			"size": 8,
-			"normalTile": "planets/tiles/Terrain_IP_Riverbed_n.png",
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_TH_CraterDirtPath_n.png",
 			"normalStrength": 1
 		}
 	}

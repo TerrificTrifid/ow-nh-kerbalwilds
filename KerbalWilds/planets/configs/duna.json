@@ -47,7 +47,7 @@
 		"maxHeight": 168,
 		"resolution": 512,
 		"smoothnessMap": "planets/maps/duna_s.png",
-		"smoothness": 0.6,
+		"smoothness": 0.5,
 		"redTile": {
 			"size": 12,
 			"normalTile": "planets/tiles/Terrain_IP_ShoreSand_B_n.png",
