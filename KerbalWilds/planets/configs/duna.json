@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Duna",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 160,
+		"surfaceGravity": 2.94,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Kerbol",
+		"semiMajorAxis": 16000,
+		"eccentricity": 0.051,
+		"inclination": 0.06,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 135.5,
+		"trueAnomaly": 180,
+		"showOrbitLine": true,
+		"isMoon": false,
+		"tint": {
+			"r": 81,
+			"g": 31,
+			"b": 20,
+			"a": 255
+		}
+	},
+	"Atmosphere": {
+		"size": 210,
+		"useAtmosphereShader": true,
+		"hasOxygen": false,
+		"atmosphereTint": {
+			"r": 107,
+			"g": 47,
+			"b": 29,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/duna_d.png",
+		"heightMap": "planets/maps/duna_h.png",
+		"minHeight": 160,
+		"maxHeight": 168,
+		"resolution": 512,
+		"smoothnessMap": "planets/maps/duna_s.png",
+		"smoothness": 0.6,
+		"redTile": {
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_IP_ShoreSand_B_n.png",
+			"normalStrength": 1,
+			"smoothnessTile": "planets/tiles/Terrain_IP_ShoreSand_B_s.png"
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "CaveTwin_Body/AmbientLight_CaveTwin",
+				"keepLoaded": true
+			}
+		]
+	}
+}

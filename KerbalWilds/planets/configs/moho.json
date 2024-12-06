@@ -6,7 +6,7 @@
 	"Base": {
 		"surfaceSize": 125,
 		"surfaceGravity": 2.7,
-		"gravityFallOff": "inverseSquared",
+		"gravityFallOff": "linear",
 		"showMinimap": true
 	},
 	"MapMarker": {

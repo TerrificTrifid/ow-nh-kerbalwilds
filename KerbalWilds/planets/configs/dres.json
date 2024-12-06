@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Dres",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 69,
+		"surfaceGravity": 1.13,
+		"gravityFallOff": "linear",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Kerbol",
+		"semiMajorAxis": 21000,
+		"eccentricity": 0.145,
+		"inclination": 5,
+		"argumentOfPeriapsis": 90,
+		"longitudeOfAscendingNode": 280,
+		"trueAnomaly": 180,
+		"showOrbitLine": true,
+		"isMoon": false,
+		"tint": {
+			"r": 45,
+			"g": 34,
+			"b": 25,
+			"a": 255
+		},
+		"siderealPeriod": 9.6
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/dres_d.png",
+		"heightMap": "planets/maps/dres_h.png",
+		"minHeight": 69,
+		"maxHeight": 75,
+		"resolution": 256
+	},
+	"AsteroidBelt": {
+		"innerRadius": 900,
+		"outerRadius": 1000,
+		"amount": 30,
+		"minSize": 2,
+		"maxSize": 5,
+		"procGen": {
+			"scale": 1,
+			"color": {
+				"r": 50,
+				"g": 50,
+				"b": 50,
+				"a": 255
+			}
+		}
+	}
+}

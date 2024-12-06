@@ -3,6 +3,7 @@ using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
 using NewHorizons.Handlers;
+using UnityEngine;
 
 namespace KerbalWilds
 {
@@ -35,6 +36,13 @@ namespace KerbalWilds
 
                 var moho = NewHorizons.GetPlanet(TranslationHandler.GetTranslation("Moho", TranslationHandler.TextType.UI));
                 moho.transform.Find("GravityWell").GetComponent<GravityVolume>()._alignmentPriority = 1;
+
+                var duna = NewHorizons.GetPlanet(TranslationHandler.GetTranslation("Duna", TranslationHandler.TextType.UI));
+                var ike = NewHorizons.GetPlanet(TranslationHandler.GetTranslation("Ike", TranslationHandler.TextType.UI));
+                var align = duna.GetAddComponent<AlignWithTargetBody>();
+                align.SetTargetBody(ike.GetAttachedOWRigidbody());
+                align._localAlignmentAxis = new Vector3(0,0,-1);
+                align._usePhysicsToRotate = true;
             });
         }
     }
