@@ -34,15 +34,18 @@ namespace KerbalWilds
             {
                 if (system != "Kerbol System") return;
 
-                var moho = NewHorizons.GetPlanet(TranslationHandler.GetTranslation("Moho", TranslationHandler.TextType.UI));
+                var moho = NewHorizons.GetPlanet("Moho");
                 moho.transform.Find("GravityWell").GetComponent<GravityVolume>()._alignmentPriority = 1;
 
-                var duna = NewHorizons.GetPlanet(TranslationHandler.GetTranslation("Duna", TranslationHandler.TextType.UI));
-                var ike = NewHorizons.GetPlanet(TranslationHandler.GetTranslation("Ike", TranslationHandler.TextType.UI));
+                var duna = NewHorizons.GetPlanet("Duna");
+                var ike = NewHorizons.GetPlanet("Ike");
                 var align = duna.GetAddComponent<AlignWithTargetBody>();
                 align.SetTargetBody(ike.GetAttachedOWRigidbody());
                 align._localAlignmentAxis = new Vector3(0,0,-1);
                 align._usePhysicsToRotate = true;
+
+                var kerbin = NewHorizons.GetPlanet("Kerbin");
+                kerbin.transform.Find("AmbientLight_TH").GetComponent<Light>().intensity = 1;
             });
         }
     }

@@ -60,19 +60,6 @@
 		"hasOxygen": true,
 		"hasTrees": false
 	},
-	"AmbientLights": [
-		{
-			"intensity": 1,
-			"innerRadius": 300,
-			"outerRadius": 440,
-			"tint": {
-				"r": 32,
-				"g": 56,
-				"b": 97,
-				"a": 255
-			}
-		}
-	],
 	"Water": {
 		"size": 299,
 		"tint": {
@@ -89,6 +76,26 @@
 		"maxHeight": 307,
 		"resolution": 1024,
 		"smoothnessMap": "planets/maps/kerbin_s.png",
-		"smoothness": 0.95
+		"smoothness": 0.5,
+		"tileBlendMap": "planets/maps/kerbin_s.png",
+		"baseTile": {
+			"size": 24,
+			"normalTile": "planets/tiles/Terrain_THM_Moon_n.png",
+			"normalStrength": 1
+		},
+		"alphaTile": {
+			"size": 24,
+			"normalTile": "planets/tiles/Terrain_WH_Snow_n.png",
+			"normalStrength": 1,
+			"smoothnessTile": "planets/tiles/Terrain_WH_Snow_s.png"
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/AmbientLight_TH",
+				"keepLoaded": true
+			}
+		]
 	}
 }
