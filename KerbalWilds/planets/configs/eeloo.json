@@ -14,7 +14,7 @@
 	},
 	"Orbit": {
 		"primaryBody": "Kerbol",
-		"semiMajorAxis": 40000,
+		"semiMajorAxis": 39000,
 		"eccentricity": 0.26,
 		"inclination": 6.15,
 		"argumentOfPeriapsis": 260,

@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Pol",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 22,
+		"surfaceGravity": 0.37,
+		"gravityFallOff": "linear",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Jool",
+		"semiMajorAxis": 7400,
+		"eccentricity": 0.171,
+		"inclination": 4.25,
+		"argumentOfPeriapsis": 15,
+		"longitudeOfAscendingNode": 2,
+		"trueAnomaly": 51,
+		"showOrbitLine": true,
+		"isMoon": true,
+		"tint": {
+			"r": 110,
+			"g": 114,
+			"b": 86,
+			"a": 255
+		},
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": 0,
+			"y": 0,
+			"z": -1
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/pol_d.png",
+		"heightMap": "planets/maps/pol_h.png",
+		"minHeight": 22,
+		"maxHeight": 25,
+		"resolution": 256,
+		"redTile": {
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_BH_Glacier_n.png",
+			"normalStrength": 1
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bop",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 32.5,
+		"surfaceGravity": 0.59,
+		"gravityFallOff": "linear",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Jool",
+		"semiMajorAxis": 6200,
+		"eccentricity": 0.117,
+		"inclination": 15,
+		"argumentOfPeriapsis": 25,
+		"longitudeOfAscendingNode": 10,
+		"trueAnomaly": 51,
+		"showOrbitLine": true,
+		"isMoon": true,
+		"tint": {
+			"r": 93,
+			"g": 80,
+			"b": 63,
+			"a": 255
+		},
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": 0,
+			"y": 0,
+			"z": -1
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/bop_d.png",
+		"heightMap": "planets/maps/bop_h.png",
+		"minHeight": 32,
+		"maxHeight": 43,
+		"resolution": 256,
+		"redTile": {
+			"size": 8,
+			"normalTile": "planets/tiles/Terrain_TH_CraterDirtPath_n.png",
+			"normalStrength": 1
+		}
+	}
+}

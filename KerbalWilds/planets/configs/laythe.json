@@ -1,0 +1,87 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Laythe",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 250,
+		"surfaceGravity": 7.85,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Jool",
+		"semiMajorAxis": 2800,
+		"eccentricity": 0,
+		"inclination": 0,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 0,
+		"trueAnomaly": 180,
+		"showOrbitLine": true,
+		"isMoon": true,
+		"tint": {
+			"r": 34,
+			"g": 43,
+			"b": 78,
+			"a": 255
+		},
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": 0,
+			"y": 0,
+			"z": -1
+		}
+	},
+	"Atmosphere": {
+		"size": 300,
+		"useAtmosphereShader": true,
+		"hasOxygen": true,
+		"hasTrees": false
+	},
+	"AmbientLights": [
+		{
+			"intensity": 1,
+			"innerRadius": 250,
+			"outerRadius": 300,
+			"tint": {
+				"r": 34,
+				"g": 43,
+				"b": 78,
+				"a": 255
+			}
+		}
+	],
+	"Water": {
+		"size": 249,
+		"tint": {
+			"r": 34,
+			"g": 43,
+			"b": 78,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/laythe_d.png",
+		"heightMap": "planets/maps/laythe_h.png",
+		"minHeight": 248,
+		"maxHeight": 254,
+		"resolution": 1024,
+		"smoothnessMap": "planets/maps/laythe_s.png",
+		"smoothness": 0.5,
+		"tileBlendMap": "planets/maps/laythe_s.png",
+		"baseTile": {
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_HT_Sand_n.png",
+			"normalStrength": 2
+		},
+		"alphaTile": {
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_WH_Snow_n.png",
+			"normalStrength": 1,
+			"smoothnessTile": "planets/tiles/Terrain_WH_Snow_s.png"
+		}
+	}
+}

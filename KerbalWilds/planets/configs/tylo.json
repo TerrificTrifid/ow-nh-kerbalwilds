@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Tylo",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 300,
+		"surfaceGravity": 7.85,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Jool",
+		"semiMajorAxis": 5000,
+		"eccentricity": 0,
+		"inclination": 0.025,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 0,
+		"trueAnomaly": 180,
+		"showOrbitLine": true,
+		"isMoon": true,
+		"tint": {
+			"r": 105,
+			"g": 85,
+			"b": 85,
+			"a": 255
+		},
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": 0,
+			"y": 0,
+			"z": -1
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/tylo_d.png",
+		"heightMap": "planets/maps/tylo_h.png",
+		"minHeight": 300,
+		"maxHeight": 313,
+		"resolution": 512,
+		"redTile": {
+			"size": 8,
+			"normalTile": "planets/tiles/Terrain_TH_CraterDirtPath_n.png",
+			"normalStrength": 1
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Vall",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 150,
+		"surfaceGravity": 2.31,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Jool",
+		"semiMajorAxis": 3900,
+		"eccentricity": 0,
+		"inclination": 0,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 0,
+		"trueAnomaly": 51,
+		"showOrbitLine": true,
+		"isMoon": true,
+		"tint": {
+			"r": 55,
+			"g": 77,
+			"b": 90,
+			"a": 255
+		},
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": 0,
+			"y": 0,
+			"z": -1
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/maps/vall_d.png",
+		"heightMap": "planets/maps/vall_h.png",
+		"minHeight": 150,
+		"maxHeight": 158,
+		"resolution": 256,
+		"smoothness": 0.65,
+		"redTile": {
+			"size": 8,
+			"normalTile": "planets/tiles/Terrain_DB_Ice_n.png",
+			"normalStrength": 1
+		},
+		"blueTile": {
+			"size": 16,
+			"normalTile": "planets/tiles/Terrain_HTT_RockTop_n.png",
+			"normalStrength": 0.25
+		}
+	}
+}
