@@ -3,6 +3,7 @@
 	"name": "Kerbol System",
 	"canEnterViaWarpDrive": true,
 	"respawnHere": true,
+	"freeMapAngle": true,
 	"GlobalMusic": {
 		"travelAudio": "planets/audio/KSP_SpaceAmbience01.ogg"
 	},

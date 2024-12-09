@@ -18,5 +18,11 @@
 		"Bop": "Bop",
 		"Pol": "Pol",
 		"Eeloo": "Eeloo"
+	},
+	"DialogueDictionary": {
+
+		"IkeMonolith1": "Ike is a relatively large, grey object occasionally seen orbiting Duna.",
+		"IkeMonolith2": "Scientists have postulated that Ike is seemingly perfectly positioned to sneakily interfere with any object that presumes to come orbiting near its parent."
+
 	}
 }

@@ -77,12 +77,14 @@
 		"resolution": 1024,
 		"smoothnessMap": "planets/maps/kerbin_s.png",
 		"smoothness": 0.5,
+		"normalMap": "planets/maps/kerbin_n.png",
+		"normalStrength": 1,
 		"tileBlendMap": "planets/maps/kerbin_s.png",
-		"baseTile": {
-			"size": 24,
-			"normalTile": "planets/tiles/Terrain_THM_Moon_n.png",
-			"normalStrength": 1
-		},
+		//"baseTile": {
+		//	"size": 24,
+		//	"normalTile": "planets/tiles/Terrain_THM_Moon_n.png",
+		//	"normalStrength": 1
+		//},
 		"alphaTile": {
 			"size": 24,
 			"normalTile": "planets/tiles/Terrain_WH_Snow_n.png",

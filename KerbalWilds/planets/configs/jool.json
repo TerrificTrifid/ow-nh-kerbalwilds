@@ -7,7 +7,8 @@
 		"surfaceSize": 1500,
 		"surfaceGravity": 7.85,
 		"gravityFallOff": "inverseSquared",
-		"showMinimap": true
+		"showMinimap": true,
+		"groundSize": 1400
 	},
 	"MapMarker": {
 		"enabled": true

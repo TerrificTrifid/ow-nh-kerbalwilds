@@ -40,6 +40,13 @@
 		"heightMap": "planets/maps/mun_h.png",
 		"minHeight": 100,
 		"maxHeight": 107,
-		"resolution": 256
+		"resolution": 256,
+		"normalMap": "planets/maps/mun_n.png",
+		"normalStrength": 1,
+		"redTile": {
+			"size": 8,
+			"normalTile": "planets/tiles/Terrain_TH_CraterDirtPath_n.png",
+			"normalStrength": 1
+		}
 	}
 }
