@@ -104,6 +104,24 @@
 				"parentPath": "Sector/GreenMonolith",
 				"isRelativeToParent": true
 			}
+		],
+		"signals": [
+			{
+				"name": "Jool Monolith",
+				"audio": "planets/audio/Loading Tunnel - Loop.wav",
+				"frequency": "Monolith",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 30,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
 		]
 	}
 }

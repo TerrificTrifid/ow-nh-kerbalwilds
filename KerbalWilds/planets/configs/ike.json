@@ -82,7 +82,7 @@
 				"name": "Ike Monolith",
 				"audio": "planets/audio/Loading Tunnel - Loop.wav",
 				"frequency": "Monolith",
-				"sourceRadius": 2,
+				"sourceRadius": 1,
 				"identificationRadius": 5,
 				"detectionRadius": 20,
 				"onlyAudibleToScope": true,

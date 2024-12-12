@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 193832872
+CRC: 3440806397
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6a60c8895045b0c23f601b8d339ab16c
+    Hash: 9bbcda44faf424c0c4e4bd0e06eae551
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 56acb9f38ad1beb1e75ad67c76b19157
+    Hash: 20fb5db80e4975d4ca6052fa53d2b892
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,9 +29,14 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1943732826, guid: d2c716dd2eb8fdb4192996d5d5c054d1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/KSP/DunaPyramid.prefab
 - Assets/KSP/BlackMonolith.prefab
 - Assets/KSP/GreenMonolith.prefab
+- Assets/KSP/Jool.prefab
 Dependencies: []

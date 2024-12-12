@@ -11,6 +11,7 @@ namespace KerbalWilds
     {
         public static KerbalWilds Instance;
         public INewHorizons NewHorizons;
+        public bool InSystem;
 
         public void Awake()
         {
@@ -32,7 +33,12 @@ namespace KerbalWilds
 
             NewHorizons.GetStarSystemLoadedEvent().AddListener(system =>
             {
-                if (system != "Kerbol System") return;
+                if (system != "Kerbol System")
+                {
+                    InSystem = false;
+                    return;
+                }
+                InSystem = true;
 
                 var moho = NewHorizons.GetPlanet("Moho");
                 var eve = NewHorizons.GetPlanet("Eve");
@@ -61,29 +67,8 @@ namespace KerbalWilds
                 dunaAlign._localAlignmentAxis = new Vector3(0,0,-1);
                 dunaAlign._usePhysicsToRotate = true;
 
-                SetupGreenMonolith(ike);
-
-                SetupGreenMonolith(jool);
-
-                SetupGreenMonolith(laythe);
-
 
             });
-        }
-
-        private void SetupGreenMonolith(GameObject body)
-        {
-            try
-            {
-                var recorder = body.transform.Find("Sector/GreenMonolith/Prefab_NOM_Recorder");
-                recorder.Find("Props_NOM_Recorder").gameObject.SetActive(false);
-                recorder.Find("PointLight_NOM_Recorder").gameObject.SetActive(false);
-                recorder.Find("Audio_Recorder").gameObject.SetActive(false);
-            }
-            catch (System.Exception)
-            {
-                ModHelper.Console.WriteLine($"Failed to set up monolith at {body.name}", MessageType.Error);
-            }
         }
     }
 }
