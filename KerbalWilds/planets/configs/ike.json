@@ -67,7 +67,25 @@
 		"translatorText": [
 			{
 				"type": "recorder",
-				"xmlFile": "planets/text/ike_monolith.xml",
+				"xmlFile": "planets/xml/ike_monolith.xml",
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		],
+		"signals": [
+			{
+				"name": "Ike Monolith",
+				"audio": "planets/audio/Loading Tunnel - Loop.wav",
+				"frequency": "Monolith",
+				"sourceRadius": 2,
+				"identificationRadius": 5,
+				"detectionRadius": 20,
+				"onlyAudibleToScope": true,
 				"position": {
 					"x": 0,
 					"y": 1,

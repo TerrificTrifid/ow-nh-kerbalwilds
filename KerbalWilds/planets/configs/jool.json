@@ -7,8 +7,7 @@
 		"surfaceSize": 1500,
 		"surfaceGravity": 7.85,
 		"gravityFallOff": "inverseSquared",
-		"showMinimap": true,
-		"groundSize": 1400
+		"showMinimap": true
 	},
 	"MapMarker": {
 		"enabled": true
@@ -75,5 +74,36 @@
 				"a": 255
 			}
 		}
-	]
+	],
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/Jool.prefab",
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/GreenMonolith.prefab",
+				"position": {
+					"x": 0,
+					"y": 1300,
+					"z": 0
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/jool_monolith.xml",
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		]
+	}
 }

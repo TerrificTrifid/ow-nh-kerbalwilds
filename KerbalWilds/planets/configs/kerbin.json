@@ -99,5 +99,16 @@
 				"keepLoaded": true
 			}
 		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/audio/KSP_SpaceCenterAmbienceDay.wav",
+				"track": "environment",
+				"rename": "DayAmbience",
+				"radius": 370,
+				"volume": 0.2
+			}
+		]
 	}
 }

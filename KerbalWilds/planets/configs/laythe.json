@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Laythe",
 	"starSystem": "Kerbol System",
-	"canShowOnTitle": true,
+	"canShowOnTitle": false,
 	"Base": {
 		"surfaceSize": 250,
 		"surfaceGravity": 7.85,
@@ -83,5 +83,42 @@
 			"normalStrength": 1,
 			"smoothnessTile": "planets/tiles/Terrain_WH_Snow_s.png"
 		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/GreenMonolith.prefab",
+				"position": {
+					"x": -148.9831,
+					"y": -181.9309,
+					"z": -90.3044
+				},
+				"alignRadial": true
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/laythe_monolith.xml",
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "OW_GD_WavesAgainstBeach",
+				"track": "environment",
+				"radius": 300,
+				"volume": 0.3
+			}
+		]
 	}
 }

@@ -84,5 +84,15 @@
 			"normalStrength": 1,
 			"smoothnessTile": "planets/tiles/Terrain_IP_mudwiggle_s.png"
 		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "Eye_of_Universe_Ambience_v2_01",
+				"track": "environment",
+				"radius": 440,
+				"volume": 0.3
+			}
+		]
 	}
 }

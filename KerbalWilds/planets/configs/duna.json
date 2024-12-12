@@ -76,5 +76,15 @@
 				}
 			}
 		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "BH_Ambience_Surface",
+				"track": "environment",
+				"radius": 210,
+				"volume": 0.2
+			}
+		]
 	}
 }
