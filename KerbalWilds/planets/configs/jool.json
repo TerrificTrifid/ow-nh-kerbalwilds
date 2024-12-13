@@ -87,7 +87,7 @@
 				"path": "Assets/KSP/GreenMonolith.prefab",
 				"position": {
 					"x": 0,
-					"y": 1300,
+					"y": 1200.25,
 					"z": 0
 				}
 			}
@@ -108,7 +108,7 @@
 		"signals": [
 			{
 				"name": "Jool Monolith",
-				"audio": "planets/audio/Loading Tunnel - Loop.wav",
+				"audio": "planets/audio/Monolith.wav",
 				"frequency": "Monolith",
 				"sourceRadius": 1,
 				"identificationRadius": 5,

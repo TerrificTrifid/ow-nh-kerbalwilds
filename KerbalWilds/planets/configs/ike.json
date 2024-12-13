@@ -80,7 +80,7 @@
 		"signals": [
 			{
 				"name": "Ike Monolith",
-				"audio": "planets/audio/Loading Tunnel - Loop.wav",
+				"audio": "planets/audio/Monolith.wav",
 				"frequency": "Monolith",
 				"sourceRadius": 1,
 				"identificationRadius": 5,
