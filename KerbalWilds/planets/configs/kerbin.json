@@ -13,22 +13,30 @@
 		"playerSpawnPoints": [
 			{
 				"position": {
-					"x": 0,
-					"y": 300,
-					"z": 0
+					"x": -293.2101,
+					"y": -2.44183,
+					"z": -64.95451
 				},
-				"alignRadial": true,
+				"rotation": {
+					"x": 335.5646,
+					"y": 346.3155,
+					"z": 95.76877
+				},
 				"isDefault": true
 			}
 		],
 		"shipSpawnPoints": [
 			{
 				"position": {
-					"x": 0,
-					"y": 300,
-					"z": 0
+					"x": -293.2101,
+					"y": -2.44183,
+					"z": -64.95451
 				},
-				"alignRadial": true,
+				"rotation": {
+					"x": 335.5646,
+					"y": 346.3155,
+					"z": 95.76877
+				},
 				"isDefault": true
 			}
 		]
@@ -97,6 +105,249 @@
 			{
 				"path": "TimberHearth_Body/AmbientLight_TH",
 				"keepLoaded": true
+			},
+			// flags
+			{
+				"rename": "KSCFlag",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/Flag.prefab",
+				"position": {
+					"x": -288.8841,
+					"y": 0.04692459,
+					"z": -79.02071
+				},
+				"rotation": {
+					"x": 0,
+					"y": 345,
+					"z": 80
+				},
+				"scale": 0.5
+			},
+			{
+				"rename": "IslandFlag",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/Flag.prefab",
+				"position": {
+					"x": -284.3588,
+					"y": -8.254,
+					"z": -92.8475
+				},
+				"alignRadial": true,
+				"scale": 0.5
+			},
+			// commnet
+			{
+				"rename": "KSCDish",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/RadioDish_Tall.prefab",
+				"position": {
+					"x": -289.4518,
+					"y": -1.1507,
+					"z": -79.0985
+				},
+				"alignRadial": true
+			},
+			{
+				"rename": "BaikerbanurDish",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/RadioDish_Tall.prefab",
+				"position": {
+					"x": -154.9149,
+					"y": 106.0895,
+					"z": 234.3455
+				},
+				"alignRadial": true
+			},
+			{
+				"rename": "CraterRimDish",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/RadioDish_Tall.prefab",
+				"position": {
+					"x": -41.49382,
+					"y": 48.35891,
+					"z": 295.3482
+				},
+				"alignRadial": true
+			},
+			{
+				"rename": "NyeIslandDish",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/RadioDish_Tall.prefab",
+				"position": {
+					"x": 282.5982,
+					"y": 22.9423,
+					"z": 94.0711
+				},
+				"alignRadial": true
+			},
+			{
+				"rename": "HarvesterMassifDish",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/RadioDish_Tall.prefab",
+				"position": {
+					"x": 168.5912,
+					"y": -65.88123,
+					"z": -241.1279
+				},
+				"alignRadial": true
+			},
+			{
+				"rename": "NorthStationOneDish",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/RadioDish_Tall.prefab",
+				"position": {
+					"x": -136.3704,
+					"y": 268.4076,
+					"z": 0.2029533
+				},
+				"alignRadial": true
+			},
+			{
+				"rename": "MesaSouthDish",
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/RadioDish_Tall.prefab",
+				"position": {
+					"x": -61.6914,
+					"y": -260.6475,
+					"z": -139.0157
+				},
+				"alignRadial": true
+			}
+		],
+		"signals": [
+			{
+				"name": "Kerbal Space Center",
+				"audio": "planets/audio/commnet.wav",
+				"frequency": "Radio",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/KSCDish/Signal",
+				"isRelativeToParent": true
+			},
+			{
+				"name": "Baikerbanur",
+				"audio": "planets/audio/commnet.wav",
+				"frequency": "Radio",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/BaikerbanurDish/Signal",
+				"isRelativeToParent": true
+			},
+			{
+				"name": "Crater Rim",
+				"audio": "planets/audio/commnet.wav",
+				"frequency": "Radio",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/CraterRimDish/Signal",
+				"isRelativeToParent": true
+			},
+			{
+				"name": "Nye Island",
+				"audio": "planets/audio/commnet.wav",
+				"frequency": "Radio",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/NyeIslandDish/Signal",
+				"isRelativeToParent": true
+			},
+			{
+				"name": "Harvester Massif",
+				"audio": "planets/audio/commnet.wav",
+				"frequency": "Radio",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/HarvesterMassifDish/Signal",
+				"isRelativeToParent": true
+			},
+			{
+				"name": "North Station One",
+				"audio": "planets/audio/commnet.wav",
+				"frequency": "Radio",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/NorthStationOneDish/Signal",
+				"isRelativeToParent": true
+			},
+			{
+				"name": "Mesa South",
+				"audio": "planets/audio/commnet.wav",
+				"frequency": "Radio",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/MesaSouthDish/Signal",
+				"isRelativeToParent": true
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/kerbin_ksc.xml",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/KSCFlag/Read",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "planets/xml/kerbin_island.xml",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/IslandFlag/Read",
+				"isRelativeToParent": true
 			}
 		]
 	},

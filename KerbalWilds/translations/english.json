@@ -21,6 +21,16 @@
 	},
 	"DialogueDictionary": {
 
+		"KerbinKSC": "Kerbal Space Center",
+		"KerbinIsland": "Island Airfield",
+		"KerbinBaikerbanur": "Baikerbanur",
+		"KerbinDessert": "Dessert Launch Complex",
+		"KerbinWoomerang": "Woomerang Launch Site",
+		"KerbinGlacierLake": "Glacier Lake Launch Site",
+		"KerbinCove": "Cove Launch Site",
+		"KerbinMahiMahi": "Mahi Mahi Launch Site",
+		"KerbinCrater": "Crater Launch Site",
+
 		"IkeMonolith1": "<![CDATA[<color=lime>Ike is a relatively large, grey object occasionally seen orbiting Duna.</color>]]>",
 		"IkeMonolith2": "<![CDATA[<color=lime>Scientists have postulated that Ike is seemingly perfectly positioned to sneakily interfere with any object that presumes to come orbiting near its parent.</color>]]>",
 		"IkeMonolith3": "<![CDATA[<color=red>something like theres a pyramid on duna ooooo spooky</color>]]>",

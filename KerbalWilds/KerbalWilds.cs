@@ -60,7 +60,7 @@ namespace KerbalWilds
                 moho.transform.Find("GravityWell").GetComponent<GravityVolume>()._alignmentPriority = 1;
 
                 kerbin.transform.Find("Sector/AmbientLight_TH").GetComponent<Light>().intensity = 1;
-                kerbin.transform.Find("Sector/DayAmbience").GetComponent<AudioSource>().spatialBlend = 0;
+                kerbin.transform.Find("Sector/DayAmbience").GetComponent<OWAudioSource>().spatialBlend = 0;
                 
                 var dunaAlign = duna.GetAddComponent<AlignWithTargetBody>();
                 dunaAlign.SetTargetBody(ike.GetAttachedOWRigidbody());

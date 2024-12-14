@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 894564185
+CRC: 520056888
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 63f4dc5631e3f8c3b875a5c93bad3fec
+    Hash: a80d186d621ee3fb195cdc0e83ca31fe
   TypeTreeHash:
     serializedVersion: 2
     Hash: 20fb5db80e4975d4ca6052fa53d2b892
@@ -35,9 +35,13 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/KSP/RadioDish_Short.prefab
 - Assets/KSP/TyloCave.prefab
 - Assets/KSP/DunaPyramid.prefab
+- Assets/KSP/Flag.prefab
 - Assets/KSP/BlackMonolith.prefab
 - Assets/KSP/GreenMonolith.prefab
+- Assets/KSP/RadioDish_Medium.prefab
 - Assets/KSP/Jool.prefab
+- Assets/KSP/RadioDish_Tall.prefab
 Dependencies: []
