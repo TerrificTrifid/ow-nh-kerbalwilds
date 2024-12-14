@@ -18,11 +18,16 @@
 					"z": -64.95451
 				},
 				"rotation": {
-					"x": 335.5646,
-					"y": 346.3155,
-					"z": 95.76877
+					"x": 180,
+					"y": 345,
+					"z": 90
 				},
-				"isDefault": true
+				"isDefault": true,
+				"offset": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				}
 			}
 		],
 		"shipSpawnPoints": [
@@ -33,11 +38,16 @@
 					"z": -64.95451
 				},
 				"rotation": {
-					"x": 335.5646,
-					"y": 346.3155,
-					"z": 95.76877
+					"x": 180,
+					"y": 345,
+					"z": 90
 				},
-				"isDefault": true
+				"isDefault": true,
+				"offset": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				}
 			}
 		]
 	},
@@ -60,7 +70,8 @@
 			"b": 97,
 			"a": 255
 		},
-		"siderealPeriod": 6
+		"siderealPeriod": 6,
+		"initialRotation": 180
 	},
 	"Atmosphere": {
 		"size": 370,
