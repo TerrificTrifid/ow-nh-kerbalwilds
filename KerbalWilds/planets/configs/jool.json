@@ -112,7 +112,7 @@
 				"frequency": "Monolith",
 				"sourceRadius": 1,
 				"identificationRadius": 5,
-				"detectionRadius": 30,
+				"detectionRadius": 50,
 				"onlyAudibleToScope": true,
 				"position": {
 					"x": 0,

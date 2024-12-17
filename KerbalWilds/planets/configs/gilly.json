@@ -36,5 +36,50 @@
 		"minHeight": 6.5,
 		"maxHeight": 10,
 		"resolution": 128
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/GreenMonolith.prefab",
+				"position": {
+					"x": 0,
+					"y": 7.8,
+					"z": 0
+				},
+				"alignRadial": true
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/gilly_monolith.xml",
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		],
+		"signals": [
+			{
+				"name": "Gilly Monolith",
+				"audio": "planets/audio/Monolith.wav",
+				"frequency": "Monolith",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		]
 	}
 }

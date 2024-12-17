@@ -46,11 +46,11 @@ namespace KerbalWilds
             for (int i = 0; i < _colors.Length; i++)
             {
                 var node = _text.GetTextNode(i + 1);
-                if (node.IndexOf(Color1String) != -1)
+                if (node.Contains(Color1String))
                 {
                     _colors[i] = Color1;
                 }
-                else if (node.IndexOf(Color2String) != -1)
+                else if (node.Contains(Color2String))
                 {
                     _colors[i] = Color2;
                 }

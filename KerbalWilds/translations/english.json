@@ -27,12 +27,11 @@
 		"North Station One": "North Station One",
 		"Mesa South": "Mesa South",
 
+		"Eve Monolith": "Eve Monolith",
+		"Gilly Monolith": "Gilly Monolith",
 		"Ike Monolith": "Ike Monolith",
-
 		"Jool Monolith": "Jool Monolith",
-
 		"Laythe Monolith": "Laythe Monolith",
-
 		"Tylo Monolith": "Tylo Monolith"
 
 	},
@@ -47,6 +46,13 @@
 		"KerbinCove": "Cove Launch Site",
 		"KerbinMahiMahi": "Mahi Mahi Launch Site",
 		"KerbinCrater": "Crater Launch Site",
+
+		"EveMonolith1": "<![CDATA[<color=lime>Eve is certainly the purplest object in the solar system. It’s one of the larger, most visible objects, mainly because of its very, very purple tint.</color>]]>",
+		"EveMonolith2": "<![CDATA[<color=lime>It is considered by some to be almost a sister planet to Kerbin. Well, despite the purple, and the toxic atmosphere, and the extreme pressures and temperatures.</color>]]>",
+		"EveMonolith3": "<![CDATA[<color=lime>Actually, it’s not very similar at all is it? Who are those people?</color>]]>",
+
+		"GillyMonolith1": "<![CDATA[<color=lime>Gilly is a lumpy rock wandering around the orbit of Eve. It’s by far the smallest natural satellite that the Kerbal Astronomical Society has discovered.</color>]]>",
+		"GillyMonolith2": "<![CDATA[<color=lime>Due to the large amount of squinting and eye strain associated with its discovery, wearing glasses has now become synonymous with being an accomplished Astronomer.</color>]]>",
 
 		"IkeMonolith1": "<![CDATA[<color=lime>Ike is a relatively large, grey object occasionally seen orbiting Duna.</color>]]>",
 		"IkeMonolith2": "<![CDATA[<color=lime>Scientists have postulated that Ike is seemingly perfectly positioned to sneakily interfere with any object that presumes to come orbiting near its parent.</color>]]>",
