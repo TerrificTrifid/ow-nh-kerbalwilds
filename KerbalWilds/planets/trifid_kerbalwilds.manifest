@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2794368111
+CRC: 1838344484
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8d25b6c7573d0736481a3c20b7a90f32
+    Hash: 3e8ff44736cc20dfc8fde8de5ca7fa95
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 20fb5db80e4975d4ca6052fa53d2b892
+    Hash: 638e6d29a228de08bffd81837448eb8c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,18 +29,26 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: -1943732826, guid: d2c716dd2eb8fdb4192996d5d5c054d1, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/KSP/HollowDresteroidInterior.prefab
 - Assets/KSP/RadioDish_Short.prefab
 - Assets/KSP/TyloCave.prefab
 - Assets/KSP/DunaPyramid.prefab
+- Assets/KSP/HollowDresteroid.prefab
 - Assets/KSP/Flag.prefab
 - Assets/KSP/BlackMonolith.prefab
 - Assets/KSP/GreenMonolith.prefab
+- Assets/KSP/MagicShard.prefab
+- Assets/KSP/BlankDresteroid.prefab
 - Assets/KSP/RadioDish_Medium.prefab
 - Assets/KSP/Jool.prefab
 - Assets/KSP/RadioDish_Tall.prefab

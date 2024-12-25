@@ -1,0 +1,84 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Hollow Dresteroid",
+	"starSystem": "Kerbol System",
+	"canShowOnTitle": true,
+	"Base": {
+		"surfaceSize": 10,
+		"surfaceGravity": 0,
+		"showMinimap": false
+	},
+	"MapMarker": {
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"maxTargetDistance": 100,
+		"hideInMap": true,
+		"targetWhenClose": true
+	},
+	"Orbit": {
+		"primaryBody": "Dres",
+		"semiMajorAxis": 950,
+		"eccentricity": 0,
+		"inclination": 0,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 0,
+		"trueAnomaly": 0,
+		"showOrbitLine": false,
+		"isMoon": false,
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": 0,
+			"y": 0,
+			"z": -1
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/HollowDresteroid.prefab",
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/HollowDresteroidInterior.prefab",
+				"keepLoaded": false
+			},
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/MagicShard.prefab",
+				"keepLoaded": true,
+				"item": {
+					"name": "Magic Shard",
+					"itemType": "MagicShard",
+					"colliderRadius": 0,
+					"droppable": true,
+					"pickupAudio": "Pickup_Rock_01",
+					"dropAudio": "PutDown_Rock_01",
+					"socketAudio": "Hologram_Enter_v2_01"
+				}
+			}
+		],
+		"signals": [
+			{
+				"name": "Magic Shard",
+				"audio": "planets/audio/AlienBeacon_Source2.wav",
+				"frequency": "Glimmeroid",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"parentPath": "Sector/MagicShard",
+				"isRelativeToParent": true
+			}
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"radius": 50
+			}
+		]
+	}
+}

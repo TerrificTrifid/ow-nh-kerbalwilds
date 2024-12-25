@@ -40,17 +40,10 @@
 	"AsteroidBelt": {
 		"innerRadius": 900,
 		"outerRadius": 1000,
-		"amount": 30,
-		"minSize": 2,
-		"maxSize": 5,
-		"procGen": {
-			"scale": 1,
-			"color": {
-				"r": 50,
-				"g": 50,
-				"b": 50,
-				"a": 255
-			}
-		}
+		"amount": 40,
+		"minSize": 3,
+		"maxSize": 12,
+		"assetBundle": "planets/trifid_kerbalwilds",
+		"path": "Assets/KSP/BlankDresteroid.prefab"
 	}
 }
