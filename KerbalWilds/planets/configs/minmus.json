@@ -37,6 +37,57 @@
 		"maxHeight": 33,
 		"resolution": 256,
 		"smoothnessMap": "planets/maps/minmus_s.png",
-		"smoothness": 1
+		"smoothness": 1,
+		"tileBlendMap": "planets/maps/minmus_b.png",
+		"redTile": {
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_WH_Snow_n.png",
+			"normalStrength": 1
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/GreenMonolith.prefab",
+				"position": {
+					"x": -5.26167,
+					"y": 3.014921,
+					"z": 29.85825
+				},
+				"alignRadial": true
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/minmus_monolith.xml",
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		],
+		"signals": [
+			{
+				"name": "Minmus Monolith",
+				"audio": "planets/audio/Monolith.wav",
+				"frequency": "Monolith",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		]
 	}
 }

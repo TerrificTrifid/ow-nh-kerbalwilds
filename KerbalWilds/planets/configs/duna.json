@@ -48,6 +48,8 @@
 		"resolution": 512,
 		"smoothnessMap": "planets/maps/duna_s.png",
 		"smoothness": 0.5,
+		"normalMap": "planets/maps/duna_n.png",
+		"normalStrength": 1,
 		"redTile": {
 			"size": 12,
 			"normalTile": "planets/tiles/Terrain_IP_ShoreSand_B_n.png",

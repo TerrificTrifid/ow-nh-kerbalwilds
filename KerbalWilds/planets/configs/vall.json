@@ -52,5 +52,54 @@
 			"normalTile": "planets/tiles/Terrain_HTT_RockTop_n.png",
 			"normalStrength": 0.25
 		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/GreenMonolith.prefab",
+				"position": {
+					"x": 152.5,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 180,
+					"z": 90
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/vall_monolith.xml",
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		],
+		"signals": [
+			{
+				"name": "Vall Monolith",
+				"audio": "planets/audio/Monolith.wav",
+				"frequency": "Monolith",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		]
 	}
 }

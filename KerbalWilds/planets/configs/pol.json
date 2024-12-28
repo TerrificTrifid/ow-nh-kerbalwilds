@@ -46,5 +46,54 @@
 			"normalTile": "planets/tiles/Terrain_BH_Glacier_n.png",
 			"normalStrength": 1
 		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/GreenMonolith.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -22.5
+				},
+				"rotation": {
+					"x": 0,
+					"y": 90,
+					"z": -90
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/pol_monolith.xml",
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		],
+		"signals": [
+			{
+				"name": "Pol Monolith",
+				"audio": "planets/audio/Monolith.wav",
+				"frequency": "Monolith",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		]
 	}
 }

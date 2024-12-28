@@ -78,8 +78,10 @@
 		"maxHeight": 357,
 		"resolution": 1024,
 		"smoothness": 0.2,
+		"normalMap": "planets/maps/eve_n.png",
+		"normalStrength": 1,
 		"redTile": {
-			"size": 32,
+			"size": 12,
 			"normalTile": "planets/tiles/Terrain_IP_mudwiggle_n.png",
 			"normalStrength": 1,
 			"smoothnessTile": "planets/tiles/Terrain_IP_mudwiggle_s.png"
