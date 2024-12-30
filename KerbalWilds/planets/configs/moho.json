@@ -36,7 +36,14 @@
 		"minHeight": 113,
 		"maxHeight": 129,
 		"resolution": 256,
-		"smoothness": 0.03
+		"smoothness": 0.03,
+		"normalMap": "planets/maps/moho_n.png",
+		"normalStrength": 1,
+		"redTile": {
+			"size": 8,
+			"normalTile": "planets/tiles/Terrain_TH_CraterDirtPath_n.png",
+			"normalStrength": 1
+		}
 	},
 	"Props": {
 		"details": [

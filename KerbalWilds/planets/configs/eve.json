@@ -81,10 +81,15 @@
 		"normalMap": "planets/maps/eve_n.png",
 		"normalStrength": 1,
 		"redTile": {
-			"size": 12,
+			"size": 24,
 			"normalTile": "planets/tiles/Terrain_IP_mudwiggle_n.png",
 			"normalStrength": 1,
 			"smoothnessTile": "planets/tiles/Terrain_IP_mudwiggle_s.png"
+		},
+		"blueTile": {
+			"size": 12,
+			"normalTile": "planets/tiles/Terrain_HT_Sand_n.png",
+			"normalStrength": 2
 		}
 	},
 	"Props": {

@@ -35,7 +35,12 @@
 		"heightMap": "planets/maps/dres_h.png",
 		"minHeight": 69,
 		"maxHeight": 75,
-		"resolution": 256
+		"resolution": 256,
+		"redTile": {
+			"size": 8,
+			"normalTile": "planets/tiles/Terrain_TH_CraterDirtPath_n.png",
+			"normalStrength": 1
+		}
 	},
 	"AsteroidBelt": {
 		"innerRadius": 900,
@@ -45,5 +50,54 @@
 		"maxSize": 12,
 		"assetBundle": "planets/trifid_kerbalwilds",
 		"path": "Assets/KSP/BlankDresteroid.prefab"
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/GreenMonolith.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -71.5
+				},
+				"rotation": {
+					"x": 0,
+					"y": 90,
+					"z": -90
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/dres_monolith.xml",
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		],
+		"signals": [
+			{
+				"name": "Dres Monolith",
+				"audio": "planets/audio/Monolith.wav",
+				"frequency": "Monolith",
+				"sourceRadius": 1,
+				"identificationRadius": 5,
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"parentPath": "Sector/GreenMonolith",
+				"isRelativeToParent": true
+			}
+		]
 	}
 }

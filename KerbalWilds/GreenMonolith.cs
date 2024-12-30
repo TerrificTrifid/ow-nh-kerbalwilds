@@ -9,14 +9,20 @@ namespace KerbalWilds
     {
         public static float FadeTime = 0.5f;
         public static float MorphTime = 0.2f;
-        public static Color Color1 = Color.green;
-        public static Color Color2 = Color.red;
+        public static Color Color1 = new Color(0f, 1f, 0f);
+        public static Color Color2 = new Color(0.5f, 0f, 1f);
         public static string Color1String = "<color=lime>";
-        public static string Color2String = "<color=red>";
+        public static string Color2String = "<color=#7F00FF>";
+
+        public static Color TranslatorDiffuse1 = new Color(0f, 0.5f, 0f); // 0.1438f, 0.6985f, 0.632f
+        public static Color TranslatorEmissive1 = new Color(0f, 0.04f, 0f); // 0.0243f, 0.214f, 0.178f
+        public static Color TranslatorDiffuse2 = new Color(0.25f, 0f, 0.5f);
+        public static Color TranslatorEmissive2 = new Color(0.02f, 0f, 0.04f);
 
         public MeshRenderer[] Renderers;
 
         private NomaiTranslator _nomaiTranslator;
+        private Material _translatorScreen;
 
         private bool _isReading;
         private bool _useSecondColor;
@@ -35,6 +41,7 @@ namespace KerbalWilds
         public void Start()
         {
             _nomaiTranslator = Locator.GetToolModeSwapper().GetTranslator();
+            _translatorScreen = _nomaiTranslator.transform.Find("TranslatorGroup/Props_HEA_Translator/Props_HEA_Translator_Screen").GetComponent<MeshRenderer>().material;
 
             var recorder = transform.Find("Prefab_NOM_Recorder");
             recorder.Find("Props_NOM_Recorder").gameObject.SetActive(false);
@@ -110,6 +117,11 @@ namespace KerbalWilds
             {
                 Renderers[i].material.SetColor("_EmissionColor", color);
             }
+
+            var screenDiffuse = Color.Lerp(TranslatorDiffuse1, TranslatorDiffuse2, _morph / MorphTime);
+            var screenEmissive = Color.Lerp(TranslatorEmissive1, TranslatorEmissive2, _morph / MorphTime);
+            _translatorScreen.color = screenDiffuse;
+            _translatorScreen.SetColor("_EmissionColor", screenEmissive);
         }
 
         public void OnEquipTranslator()
