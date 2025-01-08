@@ -68,6 +68,65 @@
 					"y": 180,
 					"z": 90
 				}
+			},
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/Vallhenge.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 90,
+					"z": -90
+				},
+				"keepLoaded": true
+			},
+			{
+				"rename": "ItemSocket",
+				"parentPath": "Sector/Vallhenge/Socket",
+				"isRelativeToParent": true,
+				"itemSocket": {
+					"itemType": "MagicShard",
+					"insertCondition": "ActivateVallhenge",
+					"clearInsertConditionOnRemoval": true,
+					"isRelativeToParent": true,
+					"colliderRadius": 1,
+					"interactRange": 2
+				}
+			},
+			{
+				"assetBundle": "planets/trifid_kerbalwilds",
+				"path": "Assets/KSP/MagicShard.prefab",
+				"keepLoaded": true,
+				"item": {
+					"name": "Magic Shard",
+					"itemType": "MagicShard",
+					"colliderRadius": 0,
+					"droppable": true,
+					"dropOffset": {
+						"x": 0,
+						"y": 0.3,
+						"z": 0
+					},
+					"dropNormal": {
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"pickupAudio": "ToolItemSharedStonePickUp",
+					"dropAudio": "ToolItemSharedStoneDrop",
+					"socketAudio": "NomaiHologramActivate",
+					"unsocketAudio": "NomaiHologramDeactivate"
+				},
+				"position": {
+					"x": -3.552238,
+					"y": -7.378474,
+					"z": -151.1577
+				},
+				"alignRadial": true
 			}
 		],
 		"translatorText": [
@@ -99,6 +158,48 @@
 				},
 				"parentPath": "Sector/GreenMonolith",
 				"isRelativeToParent": true
+			}
+		]
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"position": {
+					"x": -10.54713,
+					"y": -59.77141,
+					"z": -138.2763
+				},
+				"rotation": {
+					"x": 59.70764,
+					"y": 333.3338,
+					"z": 150.3899
+				},
+				"isDefault": false,
+				"offset": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				}
+			}
+		],
+		"shipSpawnPoints": [
+			{
+				"position": {
+					"x": -10.54713,
+					"y": -59.77141,
+					"z": -138.2763
+				},
+				"rotation": {
+					"x": 59.70764,
+					"y": 333.3338,
+					"z": 150.3899
+				},
+				"isDefault": false,
+				"offset": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				}
 			}
 		]
 	}
