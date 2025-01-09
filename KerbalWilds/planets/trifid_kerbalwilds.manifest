@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2247216617
+CRC: 1731218708
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2f7fd6deac30b886db8ab02b4a73e6ba
+    Hash: e8ce8fd603a14d2e61f109131b6da36e
   TypeTreeHash:
     serializedVersion: 2
     Hash: 58ad81f430f67a0e491a1434aa908a46
@@ -53,6 +53,7 @@ Assets:
 - Assets/KSP/TyloCave.prefab
 - Assets/KSP/DunaPyramid.prefab
 - Assets/KSP/HollowDresteroid.prefab
+- Assets/KSP/MagicBoulder.prefab
 - Assets/KSP/Flag.prefab
 - Assets/KSP/BlackMonolith.prefab
 - Assets/KSP/GreenMonolith.prefab

@@ -57,7 +57,7 @@
 
 		"MohoMonolith1": "<![CDATA[<color=lime>Moho figures in Kerbal mythology as a fiery place with oceans of flowing lava. In reality however, it's much less interesting.</color>]]>",
 		"MohoMonolith2": "<![CDATA[<color=lime>Scientists speculate about possible ways to make it \"awesome like in the stories\". Some of those ideas have led to new breakthroughs in aerospace technology.</color>]]>",
-		"MohoMonolith3": "<![CDATA[<color=#7F00FF>This is the antipode of a hazard.\nAvoid it, a tear in spacetime.\nSomething is wrong.</color>]]>",
+		"MohoMonolith3": "<![CDATA[<color=#7F00FF>This is the antipode of a hazard.\nAvoid the tear in spacetime.\nSomething is wrong.</color>]]>", //do something there
 
 		"EveMonolith1": "<![CDATA[<color=lime>Eve is certainly the purplest object in the solar system. It’s one of the larger, most visible objects, mainly because of its very, very purple tint.</color>]]>",
 		"EveMonolith2": "<![CDATA[<color=lime>It is considered by some to be almost a sister planet to Kerbin. Well, despite the purple, and the toxic atmosphere, and the extreme pressures and temperatures.</color>]]>",
@@ -71,11 +71,11 @@
 
 		"DunaMonolith1": "<![CDATA[<color=lime>Also known as the red dot that you can see if you squint at it really hard, Duna has long been a wonder to Kerbalkind.</color>]]>",
 		"DunaMonolith2": "<![CDATA[<color=lime>The planet has been held in much awe, due to its striking red color and stark contrast to the color green.</color>]]>",
-		"DunaMonolith3": "<![CDATA[<color=#7F00FF>The moon is always above.\nSeek it, the glimmer at its far side.\nIt can not provide, but it can guide you to another.</color>]]>",
+		"DunaMonolith3": "<![CDATA[<color=#7F00FF>The moon is always above.\nSeek the glimmer at its far side.\nIt can not provide, but it can guide you to another.</color>]]>",
 
 		"IkeMonolith1": "<![CDATA[<color=lime>Ike is a relatively large, grey object occasionally seen orbiting Duna.</color>]]>",
 		"IkeMonolith2": "<![CDATA[<color=lime>Scientists have postulated that Ike is seemingly perfectly positioned to sneakily interfere with any object that presumes to come orbiting near its parent.</color>]]>",
-		"IkeMonolith3": "<![CDATA[<color=#7F00FF>The planet is always above.\nSeek it, the gateway at its coldest side.\nIt is capable of reaching us.</color>]]>",
+		"IkeMonolith3": "<![CDATA[<color=#7F00FF>The planet is always above.\nSeek the gateway at its coldest side.\nIt is capable of reaching us.</color>]]>",
 
 		"DresMonolith1": "<![CDATA[<color=lime>Dres is a very small planet. It was the first planet considered to be a dwarf.</color>]]>",
 		"DresMonolith2": "<![CDATA[<color=lime>It’s orbit is highly irregular and together with it’s size it took a long time to discover since half the time it was not where scientists expected to find a planet.</color>]]>",
